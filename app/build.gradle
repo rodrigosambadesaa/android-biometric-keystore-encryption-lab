@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'gal.rodrigosambade.biometriclab'
+ compileSdk { version = release(37) { minorApiLevel = 1 } }
+ defaultConfig { applicationId 'gal.rodrigosambade.biometriclab'; minSdk 30; targetSdk 37; versionCode 1; versionName '1.0' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation 'androidx.appcompat:appcompat:1.7.1'; implementation 'androidx.core:core:1.17.0'; implementation 'com.google.android.material:material:1.12.0'; implementation 'androidx.biometric:biometric:1.1.0' }
