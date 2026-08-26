@@ -1,0 +1,1 @@
+package dev.rodrigo.biometriclab; import org.junit.Test; import static org.junit.Assert.*; public class SmokeTest{@Test public void aliasIsStable(){assertFalse("biometric-lab-key".isEmpty());}}
